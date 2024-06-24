@@ -22,7 +22,7 @@ governor = "0.6.0"
 http = "0.2.8"
 hyper = "0.14.27"
 ip_network = "0.4.1"
-jsonrpsee = { version = "0.22", features = ["server"] }
+jsonrpsee = { version = "0.23", features = ["server"] }
 log = { workspace = true, default-features = true }
 prometheus-endpoint = { package = "substrate-prometheus-endpoint", path = "../../utils/prometheus" }
 serde_json = { workspace = true, default-features = true }
