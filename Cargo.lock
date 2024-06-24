@@ -1252,6 +1252,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "asynchronous-codec"
+version = "0.7.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "a860072022177f903e59730004fb5dc13db9275b79bb2aef7ba8ce831956c233"
+dependencies = [
+ "bytes",
+ "futures-sink",
+ "futures-util",
+ "memchr",
+ "pin-project-lite 0.2.12",
+]
+
+[[package]]
 name = "atomic-take"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2557,7 +2570,7 @@ dependencies = [
  "multibase",
  "multihash 0.17.0",
  "serde",
- "unsigned-varint",
+ "unsigned-varint 0.7.2",
 ]
 
 [[package]]
@@ -2570,7 +2583,7 @@ dependencies = [
  "multibase",
  "multihash 0.18.1",
  "serde",
- "unsigned-varint",
+ "unsigned-varint 0.7.2",
 ]
 
 [[package]]
@@ -7579,7 +7592,7 @@ dependencies = [
  "rw-stream-sink",
  "smallvec",
  "thiserror",
- "unsigned-varint",
+ "unsigned-varint 0.7.2",
  "void",
 ]
 
@@ -7603,7 +7616,7 @@ version = "0.42.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5455f472243e63b9c497ff320ded0314254a9eb751799a39c283c6f20b793f3c"
 dependencies = [
- "asynchronous-codec",
+ "asynchronous-codec 0.6.2",
  "either",
  "futures",
  "futures-timer",
@@ -7644,7 +7657,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "39d5ef876a2b2323d63c258e63c2f8e36f205fe5a11f0b3095d59635650790ff"
 dependencies = [
  "arrayvec 0.7.4",
- "asynchronous-codec",
+ "asynchronous-codec 0.6.2",
  "bytes",
  "either",
  "fnv",
@@ -7661,7 +7674,7 @@ dependencies = [
  "smallvec",
  "thiserror",
  "uint",
- "unsigned-varint",
+ "unsigned-varint 0.7.2",
  "void",
 ]
 
@@ -8092,7 +8105,7 @@ dependencies = [
  "tracing",
  "trust-dns-resolver 0.23.2",
  "uint",
- "unsigned-varint",
+ "unsigned-varint 0.7.2",
  "url",
  "webpki",
  "x25519-dalek 2.0.0",
@@ -8590,7 +8603,7 @@ dependencies = [
  "percent-encoding",
  "serde",
  "static_assertions",
- "unsigned-varint",
+ "unsigned-varint 0.7.2",
  "url",
 ]
 
@@ -8619,7 +8632,7 @@ dependencies = [
  "multihash-derive 0.8.0",
  "sha2 0.10.8",
  "sha3",
- "unsigned-varint",
+ "unsigned-varint 0.7.2",
 ]
 
 [[package]]
@@ -8636,7 +8649,7 @@ dependencies = [
  "multihash-derive 0.8.0",
  "sha2 0.10.8",
  "sha3",
- "unsigned-varint",
+ "unsigned-varint 0.7.2",
 ]
 
 [[package]]
@@ -8646,7 +8659,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "076d548d76a0e2a0d4ab471d0b1c36c577786dfc4471242035d97a12a735c492"
 dependencies = [
  "core2",
- "unsigned-varint",
+ "unsigned-varint 0.7.2",
 ]
 
 [[package]]
@@ -8725,7 +8738,7 @@ dependencies = [
  "log",
  "pin-project",
  "smallvec",
- "unsigned-varint",
+ "unsigned-varint 0.7.2",
 ]
 
 [[package]]
@@ -15005,11 +15018,11 @@ version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1693116345026436eb2f10b677806169c1a1260c1c60eaaffe3fb5a29ae23d8b"
 dependencies = [
- "asynchronous-codec",
+ "asynchronous-codec 0.6.2",
  "bytes",
  "quick-protobuf",
  "thiserror",
- "unsigned-varint",
+ "unsigned-varint 0.7.2",
 ]
 
 [[package]]
@@ -16987,7 +17000,7 @@ dependencies = [
  "assert_matches",
  "async-channel",
  "async-trait",
- "asynchronous-codec",
+ "asynchronous-codec 0.6.2",
  "bytes",
  "cid 0.9.0",
  "either",
@@ -17037,7 +17050,7 @@ dependencies = [
  "tokio-stream",
  "tokio-test",
  "tokio-util",
- "unsigned-varint",
+ "unsigned-varint 0.8.0",
  "void",
  "wasm-timer",
  "zeroize",
@@ -22055,11 +22068,21 @@ version = "0.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6889a77d49f1f013504cec6bf97a2c730394adedaeb1deb5ea08949a50541105"
 dependencies = [
- "asynchronous-codec",
+ "asynchronous-codec 0.6.2",
+ "bytes",
+ "tokio-util",
+]
+
+[[package]]
+name = "unsigned-varint"
+version = "0.8.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "eb066959b24b5196ae73cb057f45598450d2c5f71460e98c49b738086eff9c06"
+dependencies = [
+ "asynchronous-codec 0.7.0",
  "bytes",
  "futures-io",
  "futures-util",
- "tokio-util",
 ]
 
 [[package]]
