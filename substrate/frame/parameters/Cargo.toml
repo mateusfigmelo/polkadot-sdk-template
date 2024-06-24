@@ -10,7 +10,7 @@ edition.workspace = true
 [dependencies]
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["max-encoded-len"] }
 scale-info = { version = "2.11.1", default-features = false, features = ["derive"] }
-paste = { version = "1.0.14", default-features = false }
+paste = { version = "1.0.15", default-features = false }
 serde = { features = ["derive"], optional = true, workspace = true, default-features = true }
 docify = "0.2.8"
 
