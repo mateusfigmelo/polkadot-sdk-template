@@ -107,7 +107,7 @@ jobs:
           fetch_release_artifacts_from_s3
 
       - name: Cache the artifacts
-        uses: actions/cache@e12d46a63a90f2fae62d114769bbf2a179198b5c # v3.3.3
+        uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4.0.2
         with:
           key: artifacts-${{ env.BINARY }}-${{ github.sha }}
           path: |
@@ -124,7 +124,7 @@ jobs:
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
 
       - name: Get artifacts from cache
-        uses: actions/cache@e12d46a63a90f2fae62d114769bbf2a179198b5c # v3.3.3
+        uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4.0.2
         with:
           key: artifacts-${{ env.BINARY }}-${{ github.sha }}
           fail-on-cache-miss: true
@@ -256,7 +256,7 @@ jobs:
         uses: docker/setup-buildx-action@d70bba72b1f3fd22344832f00baa16ece964efeb # v3.3.0
 
       - name: Cache Docker layers
-        uses: actions/cache@e12d46a63a90f2fae62d114769bbf2a179198b5c # v3.3.3
+        uses: actions/cache@0c45773b623bea8c8e75f6c82b208c3cf94ea4f9 # v4.0.2
         with:
          path: /tmp/.buildx-cache
          key: ${{ runner.os }}-buildx-${{ github.sha }}
