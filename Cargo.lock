@@ -17215,7 +17215,7 @@ dependencies = [
  "assert_matches",
  "async-channel",
  "async-trait",
- "asynchronous-codec 0.6.2",
+ "asynchronous-codec 0.7.0",
  "bytes",
  "cid 0.9.0",
  "either",
