@@ -23,7 +23,7 @@ prost-build = "0.12.4"
 array-bytes = "6.2.2"
 async-channel = "1.8.0"
 async-trait = "0.1.79"
-asynchronous-codec = "0.6"
+asynchronous-codec = "0.7"
 bytes = "1"
 cid = "0.9.0"
 codec = { package = "parity-scale-codec", version = "3.6.1", features = ["derive"] }
