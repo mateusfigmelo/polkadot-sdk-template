@@ -33,7 +33,7 @@ polkadot-node-core-chain-api = { path = "../core/chain-api" }
 polkadot-availability-bitfield-distribution = { path = "../network/bitfield-distribution" }
 color-eyre = { version = "0.6.1", default-features = false }
 polkadot-overseer = { path = "../overseer" }
-colored = "2.0.4"
+colored = "2.1.0"
 assert_matches = "1.5"
 async-trait = "0.1.79"
 sp-keystore = { path = "../../../substrate/primitives/keystore" }
