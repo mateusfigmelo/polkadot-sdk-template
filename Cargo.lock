@@ -9195,7 +9195,7 @@ dependencies = [
  "itertools 0.11.0",
  "tar",
  "tempfile",
- "toml_edit 0.19.15",
+ "toml_edit 0.21.0",
 ]
 
 [[package]]
