@@ -134,7 +134,7 @@ tempfile = "3.1.0"
 assert_cmd = "2.0.2"
 nix = { version = "0.28.0", features = ["signal"] }
 regex = "1.6.0"
-platforms = "3.0"
+platforms = "3.4"
 soketto = "0.7.1"
 criterion = { version = "0.5.1", features = ["async_tokio"] }
 tokio = { version = "1.22.0", features = ["macros", "parking_lot", "time"] }
