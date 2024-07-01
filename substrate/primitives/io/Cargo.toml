@@ -42,7 +42,7 @@ ed25519-dalek = { version = "2.1", default-features = false, optional = true }
 polkavm-derive = { workspace = true }
 
 [build-dependencies]
-rustversion = "1.0.6"
+rustversion = "1.0.17"
 
 [features]
 default = ["std"]
