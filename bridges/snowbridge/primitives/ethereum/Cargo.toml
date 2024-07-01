@@ -29,7 +29,7 @@ sp-runtime = { path = "../../../../substrate/primitives/runtime", default-featur
 ethabi = { package = "ethabi-decode", version = "1.0.0", default-features = false }
 
 [dev-dependencies]
-wasm-bindgen-test = "0.3.19"
+wasm-bindgen-test = "0.3.42"
 rand = "0.8.5"
 serde_json = { workspace = true, default-features = true }
 
