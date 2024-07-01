@@ -37,7 +37,7 @@ sp-runtime-interface-test-wasm = { path = "test-wasm" }
 sp-state-machine = { path = "../state-machine" }
 sp-core = { path = "../core" }
 sp-io = { path = "../io" }
-rustversion = "1.0.6"
+rustversion = "1.0.17"
 trybuild = "1.0.88"
 
 [features]
