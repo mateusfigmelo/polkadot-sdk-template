@@ -111,7 +111,7 @@ cumulus-client-service = { path = "../client/service" }
 cumulus-primitives-aura = { path = "../primitives/aura" }
 cumulus-primitives-core = { path = "../primitives/core" }
 cumulus-relay-chain-interface = { path = "../client/relay-chain-interface" }
-color-print = "0.3.4"
+color-print = "0.3.6"
 
 [build-dependencies]
 substrate-build-script-utils = { path = "../../substrate/utils/build-script-utils" }
