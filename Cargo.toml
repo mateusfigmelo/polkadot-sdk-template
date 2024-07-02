@@ -566,7 +566,7 @@ quote = { version = "1.0.36" }
 serde = { version = "1.0.203", default-features = false }
 serde-big-array = { version = "0.3.2" }
 serde_derive = { version = "1.0.117" }
-serde_json = { version = "1.0.119", default-features = false }
+serde_json = { version = "1.0.120", default-features = false }
 serde_yaml = { version = "0.9" }
 syn = { version = "2.0.53" }
 thiserror = { version = "1.0.61" }
