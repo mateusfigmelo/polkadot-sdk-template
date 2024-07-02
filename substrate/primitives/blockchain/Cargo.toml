@@ -21,7 +21,7 @@ codec = { package = "parity-scale-codec", version = "3.6.1", default-features = 
 futures = "0.3.30"
 log = { workspace = true, default-features = true }
 parking_lot = "0.12.1"
-schnellru = "0.2.1"
+schnellru = "0.2.3"
 thiserror = { workspace = true }
 sp-api = { path = "../api" }
 sp-consensus = { path = "../consensus/common" }
