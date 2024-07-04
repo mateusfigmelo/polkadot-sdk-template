@@ -24,7 +24,7 @@ comfy-table = { version = "7.1.0", default-features = false }
 handlebars = "5.1.0"
 Inflector = "0.11.4"
 itertools = "0.11"
-lazy_static = "1.4.0"
+lazy_static = "1.5.0"
 linked-hash-map = "0.5.4"
 log = { workspace = true, default-features = true }
 rand = { version = "0.8.5", features = ["small_rng"] }
