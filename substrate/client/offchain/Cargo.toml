@@ -47,7 +47,7 @@ log = { workspace = true, default-features = true }
 
 [dev-dependencies]
 async-trait = "0.1"
-lazy_static = "1.4.0"
+lazy_static = "1.5.0"
 tokio = "1.37"
 sc-block-builder = { path = "../block-builder" }
 sc-client-db = { path = "../db", default-features = true }
