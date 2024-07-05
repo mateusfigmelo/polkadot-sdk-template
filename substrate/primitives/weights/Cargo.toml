@@ -23,7 +23,7 @@ serde = { optional = true, features = ["alloc", "derive"], workspace = true }
 smallvec = "1.11.0"
 sp-arithmetic = { path = "../arithmetic", default-features = false }
 sp-debug-derive = { path = "../debug-derive", default-features = false }
-schemars = { version = "0.8.3", default-features = false, optional = true }
+schemars = { version = "0.8.21", default-features = false, optional = true }
 
 [features]
 default = ["std"]
