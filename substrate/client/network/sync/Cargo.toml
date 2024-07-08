@@ -27,7 +27,7 @@ futures = "0.3.30"
 futures-timer = "3.0.2"
 libp2p = "0.51.4"
 log = { workspace = true, default-features = true }
-mockall = "0.11.3"
+mockall = "0.12.1"
 prost = "0.12.4"
 schnellru = "0.2.3"
 smallvec = "1.11.0"
@@ -50,7 +50,7 @@ sp-consensus-grandpa = { path = "../../../primitives/consensus/grandpa" }
 sp-runtime = { path = "../../../primitives/runtime" }
 
 [dev-dependencies]
-mockall = "0.11.3"
+mockall = "0.12.1"
 quickcheck = { version = "1.0.3", default-features = false }
 sc-block-builder = { path = "../../block-builder" }
 sp-test-primitives = { path = "../../../primitives/test-primitives" }
