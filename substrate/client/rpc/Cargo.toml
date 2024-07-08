@@ -20,7 +20,7 @@ codec = { package = "parity-scale-codec", version = "3.6.1" }
 futures = "0.3.30"
 jsonrpsee = { version = "0.23", features = ["server"] }
 log = { workspace = true, default-features = true }
-parking_lot = "0.12.1"
+parking_lot = "0.12.3"
 serde_json = { workspace = true, default-features = true }
 sc-block-builder = { path = "../block-builder" }
 sc-chain-spec = { path = "../chain-spec" }

@@ -22,7 +22,7 @@ futures = "0.3.30"
 futures-timer = "3.0.2"
 linked-hash-map = "0.5.4"
 log = { workspace = true, default-features = true }
-parking_lot = "0.12.1"
+parking_lot = "0.12.3"
 serde = { features = ["derive"], workspace = true, default-features = true }
 thiserror = { workspace = true }
 prometheus-endpoint = { package = "substrate-prometheus-endpoint", path = "../../utils/prometheus" }

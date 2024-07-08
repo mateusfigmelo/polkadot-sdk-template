@@ -19,7 +19,7 @@ codec = { package = "parity-scale-codec", version = "3.6.1", features = ["derive
 fnv = "1.0.6"
 futures = "0.3.30"
 log = { workspace = true, default-features = true }
-parking_lot = "0.12.1"
+parking_lot = "0.12.3"
 thiserror = { workspace = true }
 wasm-timer = "0.2.5"
 prometheus = { package = "substrate-prometheus-endpoint", path = "../../../utils/prometheus" }
