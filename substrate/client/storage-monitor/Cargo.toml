@@ -12,7 +12,7 @@ homepage = "https://substrate.io"
 workspace = true
 
 [dependencies]
-clap = { version = "4.5.8", features = ["derive", "string"] }
+clap = { version = "4.5.9", features = ["derive", "string"] }
 log = { workspace = true, default-features = true }
 fs4 = "0.8.4"
 sp-core = { path = "../../primitives/core" }
