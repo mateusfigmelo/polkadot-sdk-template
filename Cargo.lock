@@ -8335,7 +8335,7 @@ dependencies = [
  "hex-literal",
  "indexmap 2.2.3",
  "libc",
- "mockall",
+ "mockall 0.11.4",
  "multiaddr",
  "multihash 0.17.0",
  "network-interface",
@@ -8831,8 +8831,22 @@ dependencies = [
  "downcast",
  "fragile",
  "lazy_static",
- "mockall_derive",
+ "mockall_derive 0.11.4",
  "predicates 2.1.5",
+ "predicates-tree",
+]
+
+[[package]]
+name = "mockall"
+version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d4c28b3fb6d753d28c20e826cd46ee611fda1cf3cde03a443a974043247c065a"
+dependencies = [
+ "cfg-if",
+ "downcast",
+ "fragile",
+ "mockall_derive 0.13.0",
+ "predicates 3.0.3",
  "predicates-tree",
 ]
 
@@ -8846,6 +8860,18 @@ dependencies = [
  "proc-macro2 1.0.82",
  "quote 1.0.36",
  "syn 1.0.109",
+]
+
+[[package]]
+name = "mockall_derive"
+version = "0.13.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "341014e7f530314e9a1fdbc7400b244efea7122662c96bfa248c31da5bfb2020"
+dependencies = [
+ "cfg-if",
+ "proc-macro2 1.0.82",
+ "quote 1.0.36",
+ "syn 2.0.61",
 ]
 
 [[package]]
@@ -16786,7 +16812,7 @@ dependencies = [
  "futures",
  "futures-timer",
  "log",
- "mockall",
+ "mockall 0.13.0",
  "parking_lot 0.12.1",
  "sc-client-api",
  "sc-network-types",
@@ -17311,7 +17337,7 @@ dependencies = [
  "linked_hash_set",
  "litep2p",
  "log",
- "mockall",
+ "mockall 0.13.0",
  "multistream-select",
  "once_cell",
  "parity-scale-codec",
@@ -17449,7 +17475,7 @@ dependencies = [
  "futures-timer",
  "libp2p",
  "log",
- "mockall",
+ "mockall 0.13.0",
  "parity-scale-codec",
  "prost 0.12.4",
  "prost-build 0.12.4",
