@@ -22,4 +22,4 @@ num-traits = "0.2"
 relay-utils = { path = "../utils" }
 
 [dev-dependencies]
-parking_lot = "0.12.1"
+parking_lot = "0.12.3"

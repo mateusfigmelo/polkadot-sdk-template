@@ -21,7 +21,7 @@ futures = { version = "0.3.30", features = ["thread-pool"] }
 futures-timer = "3.0.1"
 log = { workspace = true, default-features = true }
 mockall = "0.11.3"
-parking_lot = "0.12.1"
+parking_lot = "0.12.3"
 serde = { features = ["derive"], workspace = true, default-features = true }
 thiserror = { workspace = true }
 prometheus-endpoint = { package = "substrate-prometheus-endpoint", path = "../../../utils/prometheus" }
