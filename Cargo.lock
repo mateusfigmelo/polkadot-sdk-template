@@ -8543,7 +8543,7 @@ dependencies = [
  "unsigned-varint 0.7.2",
  "url",
  "webpki",
- "x25519-dalek 2.0.0",
+ "x25519-dalek 2.0.1",
  "x509-parser 0.15.1",
  "yasna",
  "zeroize",
@@ -19001,7 +19001,7 @@ dependencies = [
  "soketto 0.7.1",
  "twox-hash",
  "wasmi",
- "x25519-dalek 2.0.0",
+ "x25519-dalek 2.0.1",
  "zeroize",
 ]
 
@@ -20354,7 +20354,7 @@ dependencies = [
  "sp-runtime",
  "sp-runtime-interface 24.0.0",
  "thiserror",
- "x25519-dalek 2.0.0",
+ "x25519-dalek 2.0.1",
 ]
 
 [[package]]
@@ -23814,9 +23814,9 @@ dependencies = [
 
 [[package]]
 name = "x25519-dalek"
-version = "2.0.0"
+version = "2.0.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fb66477291e7e8d2b0ff1bcb900bf29489a9692816d79874bea351e7a8b6de96"
+checksum = "c7e468321c81fb07fa7f4c636c3972b9100f0346e5b6a9f2bd0603a52f7ed277"
 dependencies = [
  "curve25519-dalek 4.1.2",
  "rand_core 0.6.4",
